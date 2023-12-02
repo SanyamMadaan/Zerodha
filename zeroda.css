@@ -1,0 +1,79 @@
+
+.homepage{
+    margin:25px;
+}
+.navbar{
+    display:flex;
+    justify-content:space-between;
+     box-shadow: 2px 1px 2px #eee;
+    padding-top:5px;
+    padding-bottom:20px; 
+}
+
+.logo{
+        width: 120px;
+        padding-left: 20px;
+}
+
+.buttons span{
+    padding:10px;
+    cursor:pointer;
+    color:#666;
+}
+
+ #landing_pic{
+     width: 700px;
+    height: 300px;
+    margin-top:30px;
+    margin-bottom:20px;
+}
+
+.intro h1,h3{
+    text-align:center;
+    color:#424242;
+}
+
+#signup_btn{
+    border:1px solid;
+    cursor:pointer;
+    color:white;
+    background-color:#387ed1;
+    padding:10px 15px 10px 15px;
+    border-radius:2px;
+    width:100px;
+    height:20px
+}
+
+#signup_btn :hover{
+    background-color:black;
+    cursor:pointer;
+}
+
+.IIndsection{
+    display:flex;
+    /* justify-content:space-between; */
+    margin-top:100px;
+}
+
+.IIndsection h1{
+    font-family:poppins;
+    color:black;
+    font-weight:700;
+}
+
+.marketing{
+    margin-left:55px;
+}
+
+.IIIrdsection img{
+    display:flex;
+    justify-content:center;
+    margin-left:300px;
+    
+}
+
+.IIIrdsection .spans,h1,h2{
+    display: flex;;
+    justify-content:center;
+}
+
