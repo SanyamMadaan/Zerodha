@@ -37,6 +37,11 @@
     color:#424242;
 }
 
+.centerbtns{
+    display:flex;
+     justify-content: center;
+    text-align:center ;
+}
 .signup_btn{
     border:1px solid;
     border-radius:5px;
@@ -92,10 +97,11 @@
     font-weight:200;
 }
 
-#btn{
+.open_account #btn{
     margin-bottom:50px;
     margin-top:25px;
     display:flex;
+    align-items: center;
     text-align:center;
     justify-content:center;
 }
@@ -116,4 +122,23 @@
 .footer p a{
     color:#387ed1;
     cursor:pointer;
+}
+
+#link{
+    color:#387ed1;
+    cursor:pointer;
+}
+
+ .box{
+    border:1px solid black;
+    border-radius:2px;
+    width:230px;
+} 
+
+.box p{
+    text-align:center;
+}
+
+.box h1{
+    color:#424242;
 }
